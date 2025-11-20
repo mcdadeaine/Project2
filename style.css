@@ -25,7 +25,7 @@ body {
 main {
   width: 100%;
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  padding: 0rem 1.5rem 4rem;
 }
 
 
@@ -33,7 +33,7 @@ header {
   width: 100%;
   border-bottom: 1px solid #ccc;
   padding: 1.5rem 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 nav {
@@ -43,9 +43,10 @@ nav {
 }
 
 nav .logo {
-  font-size: 2.8rem;
-  letter-spacing: 0.25em;
+  font-size: 3rem;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
+  font-family: "Vogue", serif;
 }
 
 nav ul {
@@ -65,21 +66,26 @@ nav a:hover {
   color: gray;
 }
 
-h1, h2 {
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-}
-
 h1 {
-  font-size: 2.6rem;
-  margin-bottom: 1.5rem;
-  
+  margin-top: -1rem;
+  text-align: center;
+  font-size: 10rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+  font-family: "Vogue", serif;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   font-family: "Bodoni Moda SC", serif;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+h3 {
+
 }
 
 p {
@@ -147,6 +153,7 @@ footer {
   color: gray;
   text-align: center;
 }
+
 
 
 
