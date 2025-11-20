@@ -1,207 +1,213 @@
 @font-face {
-font-family: "Vogue";
-src: url("assets/Vogue.ttf");
+	font-family: "Vogue";
+	src: url("assets/Vogue.ttf");
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-  max-width: 1200px;
+	max-width: 1200px;
 }
 
 body {
-  background: #f8f5f2;
-  color: black;
-  font-size: 16px;
-  font-family: "Georgia", "Times New Roman", serif;
-  line-height: 1.6;
-  padding: 0;
-  margin: 0;
+	background: #f8f5f2;
+	color: black;
+	font-size: 16px;
+	font-family: "Georgia", "Times New Roman", serif;
+	line-height: 1.6;
+	padding: 0;
+	margin: 0;
 }
 
 main {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0rem 1.5rem 4rem;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0rem 1.5rem 4rem;
 }
+
 header {
-  width: 100%;
-  border-bottom: 1px solid lightgray;
-  padding: 1.5rem 1.5rem;
-  margin-bottom: 0.5rem;
+	width: 100%;
+	border-bottom: 1px solid lightgray;
+	padding: 1.5rem 1.5rem;
+	margin-bottom: 0.5rem;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav .logo {
-  font-size: 3rem;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  font-family: "Vogue", serif;
+	font-size: 3rem;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	font-family: "Vogue", serif;
 }
 
 nav ul {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
+	display: flex;
+	gap: 2rem;
+	list-style: none;
 }
 
 nav a {
-  text-decoration: none;
-  color: black;
-  font-size: 1rem;
-  letter-spacing: 0.04rem;
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+	letter-spacing: 0.04rem;
 }
 
 nav a:hover {
-  color: gray;
+	color: gray;
 }
 
 h1 {
-  margin-top: -0.5rem;
-  text-align: center;
-  font-size: 10rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0.02em;
-  font-family: "Vogue", serif;
-  font-weight: 400;
+	margin-top: -0.5rem;
+	text-align: center;
+	font-size: 10rem;
+	margin-bottom: 1rem;
+	letter-spacing: 0.02em;
+	font-family: "Vogue", serif;
+	font-weight: 400;
 }
 
 h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  font-family: "Bodoni Moda SC", serif;
-  letter-spacing: 0.3rem;
-  text-transform: uppercase;
-  text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	font-family: "Bodoni Moda SC", serif;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .subtitle {
-  display: flex;
-  justify-content: center;
-  margin-top: -2rem;
-  margin-right: -30rem;
+	display: flex;
+	justify-content: center;
+	margin-top: -2rem;
+	margin-right: -30rem;
 }
 
 h3 {
-  margin-top: -4rem;
-  font-family: "Bodoni Moda SC", serif;
-  letter-spacing: 0.6rem;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  line-height: 2.1rem;
-  text-align: center;
+	margin-top: -4rem;
+	font-family: "Bodoni Moda SC", serif;
+	letter-spacing: 0.6rem;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	line-height: 2.1rem;
+	text-align: center;
 }
 
 .quote {
- font-family: "Corinthia";
+	font-family: "Corinthia";
 }
 
 p {
-  margin-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
 }
 
 .spread {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  margin: 4rem 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 3rem;
+	margin: 4rem 0;
 }
 
 .image1 {
-  width: 100%;
-  height: 750px;
-  border: 1px solid #ccc;
-  background-image: url("assets/Image1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+	width: 100%;
+	height: 750px;
+	border: 1px solid #ccc;
+	background-image: url("assets/Image1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+
 .image2 {
-  width: 100%;
-  height: 500px;
-  border: 1px solid #ccc;
-  background-image: url("assets/Image2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	border: 1px solid #ccc;
+	background-image: url("assets/Image2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .text-block {
-  display: block;
-  flex-direction: column;
-  justify-content: flex-start;
+	display: block;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .LargeA {
-  float: left;
-  font-family: "GFS Didot", serif;
-  font-size: 5rem;
-  line-height: 0.7;
-  padding-right: 0.4rem;
-  padding-top: 0.15rem;
-  font-weight: normal;
+	float: left;
+	font-family: "GFS Didot", serif;
+	font-size: 5rem;
+	line-height: 0.7;
+	padding-right: 0.4rem;
+	padding-top: 0.15rem;
+	font-weight: normal;
 }
 
 .caption {
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: gray;
+	font-size: 0.8rem;
+	margin-top: 0.5rem;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: gray;
 }
 
 footer {
-  margin-top: 4rem;
-  padding: 2rem 1.5rem;
-  border-top: 1px solid lightgray;
-  font-size: 0.85rem;
-  color: gray;
-  text-align: center;
+	margin-top: 4rem;
+	padding: 2rem 1.5rem;
+	border-top: 1px solid lightgray;
+	font-size: 0.85rem;
+	color: gray;
+	text-align: center;
 }
 
 
-
 /*phone*/
-@media only screen and (min-width: 320px) and (max-width: 480px){
-  body {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	body {
 		font-size: 12px;
 	}
-    h1 {
-    font-size: 4rem;
-    margin-top: 1rem;
-  }
-  
-  .subtitle {
-    margin-right: 0;
-    justify-content: center;
-  }
-  nav .logo {
-	  font-size: 1.5rem;
-  }
-  h3 {
-    font-size: 1rem;
-    letter-spacing: 0.25rem;
-    margin-top: -1rem;
-  }
 
-  .spread {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
+	h1 {
+		font-size: 4rem;
+		margin-top: 1rem;
+	}
 
-  .image1, .image2 {
-    height: 300px;
-  }
-  footer {
-    padding: 1rem;
-  }
+	.subtitle {
+		margin-right: 0;
+		justify-content: center;
+	}
+
+	nav .logo {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1rem;
+		letter-spacing: 0.25rem;
+		margin-top: -1rem;
+	}
+
+	.spread {
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+
+	.image1,
+	.image2 {
+		height: 300px;
+	}
+
+	footer {
+		padding: 1rem;
+	}
 }
