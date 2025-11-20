@@ -1,3 +1,8 @@
+@font-face {
+font-family: "fright";
+src: url("assets/Vogue.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
