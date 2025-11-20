@@ -99,10 +99,13 @@ display: flex;
 flex-direction: column;
 }
 
+.quote {
+ font-family: "Corinthia";
+}
+
+
 p {
-  max-width: 65ch;
   margin-bottom: 1.5rem;
-  font-size: 1rem;
 }
 
 
